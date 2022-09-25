@@ -17,14 +17,14 @@ const talkedRecently = new Set();
 
 Client.on('ready', ()=>{
     console.log("Bot is online.");
-    Client.user.setActivity('почемучка.', { type: 'WATCHING'}).catch(console.error);
+    Client.user.setActivity('AntiCr4ck.', { type: 'WATCHING'}).catch(console.error);
 })
 
 
 
 
 
-const TOKEN = 'insert token here';
+const TOKEN = 'MTAwMTMzOTczODU1NDM3NjMyMw.GjJIHx.xTmMlOPUr_kYaO8--I0yWCCzO_atTtfSr8tP1s';
 
 var can_use_command = true;
 var is_connected = false;
